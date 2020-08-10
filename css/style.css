@@ -1,0 +1,117 @@
+html,body
+{
+    background-image: url("../image/body-bg.png");
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: khaki;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.head .menu .navbar-brand
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.head
+{
+    background-color: grey;
+    position: sticky;
+}
+.head .menu .navbar .menu2
+{
+    margin-right: 15rem;
+}
+.head .menu .nav-item .nav-link
+{
+    padding: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+.head .menu .nav-item .nav-link:hover
+{
+    color: darkorchid;
+}
+.head2 .item
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8%;
+    margin-left: 40%;
+}
+.head2 img
+{
+    
+    margin-top: 5%;
+    width: 50%;
+    transform: translateX(30%);
+    box-shadow: 7px 10px 8px grey;
+}
+@media(max-width:600px)
+{
+    .head2 .item{
+        margin-left:15%;
+        width: auto;
+    }
+}
+.name p
+{
+    margin-left: 20%;
+    padding:10px 20px;
+}
+.head2 .item h1::after
+{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translatey(-10px);
+}
+.head2 .item h1
+{
+    font-size: 25px;
+}
+.about-area .img-style img
+{
+    margin-top: 15%;
+    width: 50%;
+    box-shadow: 7px 10px 8px grey;
+    transform: translateX(30%);
+}
+.about-me h2
+{
+    margin-top: 15%;
+}
+@media(max-width:600px)
+{
+    .about-me{
+        margin-left:15%;
+        width: auto;
+    }
+}
+.progect h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.iframe2
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+iframe
+{
+    height: 300px;
+    width: 250px;
+}
+.footer
+{
+    text-align: center;
+    padding: 30px;
+    background-color: gray;
+}
